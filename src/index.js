@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/health', (req, res) => {
-    res.json({ status: 'ok', message: 'Server is running deploy using gihub action' });
+    res.json({ status: 'ok', message: 'Server is running deploy using gihub action ' });
 });
 
 app.listen(PORT, () => {
